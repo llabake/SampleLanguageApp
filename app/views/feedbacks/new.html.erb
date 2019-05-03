@@ -1,0 +1,10 @@
+<h1>New Feedback</h1>
+
+<%
+=begin%>
+ <%= render 'form', feedback: @feedback %>
+
+<%= link_to 'Back', feedbacks_path %> 
+<%
+=end%>
+<%= render @feedbacks %>
